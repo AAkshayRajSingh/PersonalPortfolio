@@ -91,7 +91,7 @@ const MySkills = () => {
             <span className="text-red-300">Aug 2021 – Jul 2022</span>
           </p>
           <p className="text-sm text-gray-400 mb-4">
-            Software Development Engineer in test for NCR's R10 Product, utilizing C++ and React framework. Resolved bugs in NCR retail environments and developed a data migration tool for Coles POS machines.
+            Software Development Engineer  for NCR's R10 Product, utilizing C++ and React framework. Resolved bugs in NCR retail environments and developed a data migration tool for Coles POS machines.
           </p>
         </div>
         
