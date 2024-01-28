@@ -1,6 +1,7 @@
 import SocialMediaIcons from "../components/SocialMediaIcons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
+import imgx from "/Users/a.akshayrajsingh/react-portfolio/src/assets/Akshay.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Landing = ({ setSelectedPage }) => {
@@ -20,15 +21,15 @@ const Landing = ({ setSelectedPage }) => {
             <img
               alt="profile"
               className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[350px] md:max-w-[350px]"
-              src="assets/reactpic22.png"
+              src=  {imgx}
             />
           </div>
         ) : (
           <img
             alt="profile"
             className="z-10 w-full max-w-[400px] md:max-w-[600px]"
-            src="assets/reactpic22.png"
-          />
+            src={imgx}
+              />
         )}
       </div>
 {/* MAIN TEXT */}
@@ -84,6 +85,14 @@ const Landing = ({ setSelectedPage }) => {
     <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
       Let's talk.
     </div>
+  </AnchorLink>
+  <AnchorLink
+    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+      hover:bg-blue hover:text-white transition duration-500"
+    onClick={() => setSelectedPage("contact")}
+    href="#contact"
+  >
+    Resume
   </AnchorLink>
 </motion.div>
 
