@@ -86,14 +86,15 @@ const Landing = ({ setSelectedPage }) => {
       Let's talk.
     </div>
   </AnchorLink>
-  <AnchorLink
-    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-      hover:bg-blue hover:text-white transition duration-500"
-    onClick={() => setSelectedPage("contact")}
-    href="#contact"
-  >
-    Resume
-  </AnchorLink>
+  <a
+  className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+  hover:bg-blue hover:text-white transition duration-500"
+ href="https://drive.google.com/file/d/153FfYKo2OvK65vuPFEW187_vrmeoraUs/view"
+  target="_blank"
+  rel="noreferrer"
+>
+ Resume
+</a>
 </motion.div>
 
 <motion.div
